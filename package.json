@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "*",
+    "got": "*"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
