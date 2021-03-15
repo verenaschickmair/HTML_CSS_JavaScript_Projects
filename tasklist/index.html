@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgaben Liste</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+    <main>
+        <h1>Aufgaben Liste</h1>
+
+        <form name="taskform" method="post" action="#" id="taskform" >
+            <label for="task">Task: </label>
+            <input type="text" name="task" id="task"/>
+
+            <label for="person">Person: </label>
+            <select id="person" size="1"></select>
+            <br/>
+
+            <label for="description" id="desc">Beschreibung: </label>
+            <textarea name="description" id="description" cols="100" rows="5"></textarea>
+
+
+            <input type="button" value="Task hinzufügen" id="add">
+
+            <hr>
+            <div id="buttonrow">
+                <input type="button" value="Subtask hinzufügen" id="addSubtask">
+                <input type="button" value="Offene anzeigen" id="showOpen">
+                <input type="button" value="Alle anzeigen" id="showAll">
+            </div>
+        </form>
+    </main>
+</div>
+
+<div id="taskDiv">
+
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/task.js"></script>
+<script type="text/javascript" src="js/classes.js"></script>
+</body>
+</html>

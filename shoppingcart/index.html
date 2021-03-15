@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/shopping.js"></script>
+</head>
+<body>
+
+<main>
+    <!-- Source: https://www.w3schools.com/howto/howto_js_tabs.asp -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'dresses')" id="defaultOpen">Kleider</button>
+        <button class="tablinks" onclick="openTab(event, 'shoes')">Schuhe</button>
+        <button class="tablinks" onclick="openTab(event, 'bags')">Taschen</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="dresses" class="tabcontent">
+        <div>
+            <img src="img/dress1.jpg" width="340px" height="450px" alt="dress1">
+            <p>Fehlt der Tannenbaum? Sei der Tannenbaum!</p>
+            <p>Preis: €<span>100</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="dress1">
+        </div>
+        <div>
+            <img src="img/dress2.jpg" width="340px" height="450px" alt="dress2">
+            <p>In blau/schwarz oder weiß/gold erhältlich!</p>
+            <p>Preis: €<span>60</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="dress2">
+        </div>
+        <div>
+            <img src="img/dress3.jpg" width="340px" height="450px" alt="dress3">
+            <p>Für jeden Corndog-Lieberhaber ein Hit!</p>
+            <p>Preis: €<span>157</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="dress3">
+        </div>
+    </div>
+
+    <div id="shoes" class="tabcontent">
+        <div>
+            <img src="img/shoe1.jpg" width="340px" height="450px" alt="shoe1">
+            <p>Oberburner-Crocs im Sonderangebot!</p>
+            <p>Preis: €<span>500</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="shoe1">
+        </div>
+        <div>
+            <img src="img/shoe2.jpg" width="340px" height="450px" alt="shoe2">
+            <p>Um deine Zehen richtig in Geltung zu bringen!</p>
+            <p>Preis: €<span>33</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="shoe2">
+        </div>
+        <div>
+            <img src="img/shoe3.jpg" width="340px" height="450px" alt="shoe3">
+            <p>How much is the fish?</p>
+            <p>Preis: €<span>20</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="shoe3">
+        </div>
+    </div>
+
+    <div id="bags" class="tabcontent">
+        <div>
+            <img src="img/bag1.jpg" width="340px" height="450px" alt="bag1">
+            <p>Täuschend echter Traumbody als Bauchtasche!</p>
+            <p>Preis: €<span>200</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="bag1">
+        </div>
+        <div>
+            <img src="img/bag2.jpg" width="340px" height="450px" alt="bag2">
+            <p>Hot chicks need a hot chicken bag!</p>
+            <p>Preis: €<span>120</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="bag2">
+        </div>
+        <div>
+            <img src="img/bag3.jpg" width="340px" height="450px" alt="bag3">
+            <p>Passend zu Crocs eine Crocstasche!</p>
+            <p>Preis: €<span>70</span>,-</p>
+            <input type="button" value="in den Warenkorb" class="shop" id="bag3">
+        </div>
+    </div>
+</main>
+
+<div id="shoppingCart">
+    <h1>Warenkorb</h1>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/shopping.js">
+</script>
+</body>
+</html>

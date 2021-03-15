@@ -1,0 +1,123 @@
+/*CSS für Formular-Layout*/
+body{
+    background-color: #cccccc;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    font-family: "Calibri Light";
+    font-size: 2.5em;
+    color: #006699;
+    padding: 20px 0px 20px 0px;
+}
+
+p{
+    margin: 2px;
+    font-size: 1.2em;
+    font-family: "Calibri Light";
+}
+
+label{
+    margin: 0px 20px 0px 50px;
+    font-family: "Calibri Light";
+    font-size: 1.3em;
+}
+
+input[type=button], select{
+    margin: 10px 10px 10px 0px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1em;
+    font-family: "Calibri Light";
+    background-color: #006699;
+    color: #ffffff;
+}
+
+.delete{
+    display: block;
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 215px;
+    font-family: "Calibri Light";
+    font-size: 1em;
+}
+
+#add{
+    position: relative;
+    left: 450px;
+}
+
+#person{
+    margin-left: 90px;
+    color: black;
+    background-color: #ffffff;
+}
+
+#task{
+    margin-left: 88px;
+}
+
+#description{
+    margin-left: 10px;
+    font-size: 1em;
+    font-family: "Calibri Light";
+}
+
+/*CSS für Einträge*/
+
+.tasks{
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.radio{
+    padding-left: 20px;
+    margin: 35px 80px 35px 0px;
+    display: block;
+    float: left;
+}
+
+.info{
+    font-size: 1em;
+    font-family: "Calibri Light";
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.closedEntry{
+    background-color: #cccccc;
+}
+
+#buttonrow{
+    position: relative;
+    left: 255px;
+}
+
+.marked{
+    border: 2px solid red;
+}
+
+.subTasks1{
+    width: 860px;
+    padding: 20px;
+    background-color: #99eeff;
+}
+
+.subTasks2{
+    width: 760px;
+    padding: 20px;
+    background-color: #5599aa;
+}
